@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "BottomSheet",
     platforms: [
-        .iOS(.v15)
+        .iOS("17.0")
     ],
     products: [
         .library(
